@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background:linear-gradient( #182848 0%, #4b6cb7 100%);
+    color: white;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    font-family:'Raleway', sans-serif;
+    font-size: 1.8rem;
+}
+.navbar{
+    padding:2%;
+}
+.navbar-brand{
+    width: 4rem;
+    height: 4.5rem;
+}
+.today,.weather{
+    width: 100%;
+    font-size: 3.6rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.today-dane{
+    position: relative;
+    top: 40%;
+}
+.today-dane>div{
+    font-weight: normal;
+}
+.stopnie{
+    font-size: 4.8rem;
+    font-weight: normal;
+}
+.weather-dane{
+    position: relative;
+    top:10%;
+}
+.stan{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+.stan > img{
+    width: 15rem;
+    height: 15rem;
+}
+
+.signature{
+    text-align: center;
+    width: 100%;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+}
